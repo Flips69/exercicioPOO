@@ -49,7 +49,7 @@ class Loja {
 
     adicionarProdutoEstoque(produtos: ProdutoLoja) {
         this.estoqueProduto.push(produtos);
-        return "adicionado ao estoque da loja com secesso "
+        return "adicionado ao estoque da loja com sucesso "
     }
     removerProdutoEstoque(produto: ProdutoLoja) {
         this.estoqueProduto = this.estoqueProduto.filter((item) => item.nome !== produto.nome);
